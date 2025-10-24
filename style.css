@@ -230,8 +230,8 @@ section:hover {
   box-shadow: 0 20px 35px rgba(255, 92, 92, 0.35);
 }
 
-.reserve .container,
-.contact .container{
+.reserve .container form,
+.contact .container form{
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -305,19 +305,6 @@ footer a {
 
 footer a:hover {
   text-decoration: underline;
-}
-
-.snowflake {
-  position: absolute;
-  top: -10px;
-  background: #fff;
-  border-radius: 50%;
-  pointer-events: none;
-  z-index: 9999;
-  opacity: 0.8;
-  animation-name: fall, sway;
-  animation-timing-function: linear, ease-in-out;
-  animation-iteration-count: infinite, infinite;
 }
 
 @keyframes fall {
